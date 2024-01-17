@@ -44,7 +44,7 @@ div {
     text-decoration: none;
   }
 
-.downloads {
+button {
     align: center;
     font-family: monospace;
     background-color: gray;
