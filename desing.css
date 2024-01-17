@@ -47,5 +47,6 @@ div {
 .downloads {
     align: center;
     font-family: monospace;
+    color: gray;
 
 }
