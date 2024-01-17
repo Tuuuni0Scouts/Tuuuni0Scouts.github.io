@@ -56,6 +56,13 @@ div {
     margin: 4px 2px;
     cursor: pointer;
   }
-body {
+    
+    .centerbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  body {
     background-color: black;
 }
