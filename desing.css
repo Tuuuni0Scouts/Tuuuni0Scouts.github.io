@@ -1,7 +1,7 @@
 h1 {
     color:rgb(139, 139, 139);
     text-align: center;
-    font-family: Exo 2;
+    font-family: "Exo 2", sans-serif;
     font-size: 50px;
 }
 
@@ -11,7 +11,7 @@ div {
 }
 .Copyright {
     color:rgb(139, 139, 139);
-    font-family: Exo 2;
+    font-family: "Exo 2", sans-serif;
     font-size: 15px;
 }
 .black-box {
@@ -23,7 +23,7 @@ div {
 .startmenu {
     color:rgb(139, 139, 139);
     text-align: right;
-    font-family: Exo 2;
+    font-family: "Exo 2", sans-serif;
     font-size: 20px;
 
 }
@@ -46,7 +46,7 @@ div {
 
   .button {
     background-color: #101049;
-    border: gray;
+    border: darkblue;
     color: darkblue;
     padding: 15px 32px;
     text-align: center;
