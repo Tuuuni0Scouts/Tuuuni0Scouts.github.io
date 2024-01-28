@@ -55,13 +55,12 @@ div {
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
     
-    .centerbutton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 
   body {
     background-color: black;
