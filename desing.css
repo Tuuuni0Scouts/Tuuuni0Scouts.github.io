@@ -48,12 +48,11 @@ div {
     width: 100px;
     height: 50px;
     border: none;
-    border-radius: 50%;
+    border-radius: 0%;
     background-color: darkblue;
     box-shadow: 0 0 5px blue;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     cursor: pointer;
     display: flex;
     justify-content: center;
