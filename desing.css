@@ -80,3 +80,15 @@ div {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#leftbutton {
+    left: 10px;
+  }
+  
+
+  #rightbutton {
+    right: 10px;
+  }
+  </style>
+  </head>
+  <body>
