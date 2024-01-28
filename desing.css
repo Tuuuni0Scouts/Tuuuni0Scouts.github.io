@@ -1,7 +1,7 @@
 h1 {
     color:rgb(139, 139, 139);
     text-align: center;
-    font-family: "PT Sans", sans-serif;
+    font-family: Arial, 
     font-size: 50px;
 }
 
@@ -11,7 +11,7 @@ div {
 }
 .Copyright {
     color:rgb(139, 139, 139);
-    font-family: "PT Sans", sans-serif;
+    font-family: Arial, 
     font-size: 15px;
 }
 .black-box {
@@ -23,7 +23,7 @@ div {
 .startmenu {
     color:rgb(139, 139, 139);
     text-align: right;
-    font-family: "PT Sans", sans-serif; 
+    font-family: Arial, 
     font-size: 20px;
 
 }
