@@ -45,17 +45,16 @@ div {
   }
 
   .centerbutton {
-    width: 120px;
+    width: 150px;
     height: 50px;
     border: none;
-    border-radius: 0px; /* Eckiger Knopf */
+    border-radius: 0%;
     background-color: darkblue;
     box-shadow: 0 0 5px blue;
     position: absolute;
     top: 50%;
-    left: 50%; /* Horizontaler Abstand */
-    margin-top: -25px; /* Vertikaler Rand */
-    margin-left: -60px; /* Horizontaler Rand */
+    transform: translateY(-50%);
+    cursor: pointer;
     cursor: pointer;
     display: flex;
     justify-content: center;
