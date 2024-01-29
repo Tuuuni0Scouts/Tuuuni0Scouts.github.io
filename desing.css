@@ -50,7 +50,7 @@ div {
     border: none;
     border-radius: 0px; /* Eckiger Knopf */
     background-color: darkblue;
-    box-shadow: 0 0 5px blue;
+    box-shadow: 0 0 5px darkblue;
     position: absolute;
     top: 50%;
     left: 50%; /* Horizontaler Abstand */
