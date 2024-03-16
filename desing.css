@@ -43,6 +43,7 @@ div {
     padding: 14px 16px;
     text-decoration: none;
   }
+  /*Desing Downloadbereich Buttons*/
 
   .centerbutton {
     width: 120px;
@@ -97,14 +98,14 @@ div {
     height: 50px;
     border: none;
     border-radius: 50%;
-    background-color: darkblue;
-    box-shadow: 0 0 5px blue;
+    background-color: darkgray;
+    box-shadow: 0 0 5px gray;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
   }
-
+/*gALERIE / BILDER KATEGORIE*/
   #gallery img {
     width: 600px;
     height: 400px;
