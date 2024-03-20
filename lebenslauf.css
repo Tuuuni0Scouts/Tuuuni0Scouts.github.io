@@ -1,0 +1,160 @@
+h1 {
+    color:rgb(139, 139, 139);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+h2 {
+  color:rgb(139, 139, 139);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+p {
+  color:rgb(139, 139, 139);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+div {
+    background-color: black;
+    background-size: 50px;
+}
+.Copyright {
+    color:rgb(139, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.black-box {
+    width: 100%;
+    height: 900px;
+    background-color: black; 
+}
+
+.startmenu {
+    color:rgb(139, 139, 139);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.startMenulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.startmenu {
+    display: block;
+    color: rgb(139, 139, 139);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*Desing Downloadbereich Buttons*/
+
+  .centerbutton {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 0px; /* Eckiger Knopf */
+    background-color: darkgray;
+    box-shadow: 0 0 5px darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Horizontaler Abstand */
+    margin-top: -25px; /* Vertikaler Rand */
+    margin-left: -60px; /* Horizontaler Rand */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+
+
+  body {
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#leftbutton {
+    left: 10px;
+  }
+  
+
+  #rightbutton {
+    right: 10px;
+  }
+  
+  .button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkgray;
+    box-shadow: 0 0 5px gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+/*gALERIE / BILDER KATEGORIE*/
+  #gallery img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    scroll-snap-align: center; /* zentriert die Bilder beim Scrollen */
+  }
+ 
+  #gallery {
+    width: 600px;
+    height: 400px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory; /* aktiviert das Scroll-Snapping */
+  }
+
+/* blog-Stile */
+.forum {
+    margin-top: 20px;
+}
+.forum h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.forum p {
+    font-size: 16px;
+    color: white;
+}
+/* Beitrag-Stile */
+.post {
+    background-color: darkgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.post h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.post p {
+    font-size: 14px;
+    color: #777;
+}
