@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpdesk</title>
+    <link rel="stylesheet" href="desing.css">
+</head>
+<body>
+    <h1>Helpdesk</h1>
+    <form id="ticketForm">
+        <label for="customerName">Name:</label>
+        <input type="text" id="customerName" required>
+        <label for="issue">Problem:</label>
+        <textarea id="issue" rows="4" required></textarea>
+        <button type="submit">Ticket erstellen</button>
+    </form>
+    <div id="ticketList"></div>
+
+    <script src="helpdesk.js"></script>
+</body>
+</html>
